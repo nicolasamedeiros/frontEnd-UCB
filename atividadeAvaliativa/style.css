@@ -4,10 +4,27 @@
     padding: 0px;
 }
 
+@keyframes change-color {
+    100% {color: black;}
+    100% {color: red;}
+}
+
 header {
     display: flex;
     justify-content: center;
     padding: 5px;
+}
+
+.imgLogo {
+    box-shadow: 10px 10px 5px #000000;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #54545a, #a1a1aa);
+}
+
+.tituloPrincipal {
+    animation: change-color 2s linear infinite;
 }
 
 div.sobreNos {
