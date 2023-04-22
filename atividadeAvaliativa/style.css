@@ -41,19 +41,17 @@ div.sobreNos {
     padding: 2%;
 }
 
-.lista1 {
-    text-align: left;
+.lista {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 1%;
     margin-left: 7%;
 }
 
-.lista2 {
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding: 1px;
+ul {
+    list-style: none;
+    margin-right: 6%;
 }
 
 .endereco {
