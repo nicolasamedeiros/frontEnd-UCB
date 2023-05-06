@@ -11,14 +11,13 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: #151319;
     color: #fff;
     font-size: 1.8rem;
-    /* padding-top: 2rem; */
-    padding: 1em 2em ;
+    padding: 1em 2em;
     position: fixed;
     width: 100%;
-    height: 10rem;
+    height: 9rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +28,12 @@ header {
     top: 0.2rem;
     left: 10rem;
     height: 18rem;
+}
+
+body {
+    background-image: url(imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 ul {
@@ -49,8 +54,8 @@ li {
 }
 
 li:hover {
-    background: #ccc;
-    color: #000000;
+    background: #ff0000;
+    color: #fff;
     padding: 1rem;
     border-color: #000000;
     border-radius: 8px;
@@ -61,10 +66,9 @@ li:hover {
     background-color: #fff;
     padding: 1.5rem;
     text-align: center;
-    margin-top: 4rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 80%;
+    max-width: 70%;
     padding-top: 14rem;
     z-index: 1;
     border-radius: 20px;   
@@ -116,7 +120,7 @@ figcaption {
 }
 
 button {
-    margin-top: 3rem;
+    margin-top: 1rem;
     font-size: 3rem;
     background-color: white;
 }
@@ -125,7 +129,7 @@ button a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    background-color: #289628;
+    background-color: #ff0000;
     padding: 10px;
     border-radius: 25px;
 }
@@ -133,7 +137,52 @@ button a {
 button a:hover {
     color: #000;
     border: solid;
-    border-width: 2px;
-    background-color: #289628;
+    border-width: 3px;
+    background-color: #ff0000;
 }
 
+.virgil {
+    border-radius: 100%;
+    width: 410px;
+    margin-bottom: 2rem;
+}
+
+.textos h3 {
+    font-size: 2rem;
+}
+
+.textos h2 {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+}
+
+.textos p {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #151319;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2.3rem;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    left: 0rem;
+    bottom: 0;
+    height: 1.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ff0000;
+}
