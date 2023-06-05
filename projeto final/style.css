@@ -273,11 +273,11 @@ blockquote {
     transition: all 0.4s ease;
 }
 
-.container-cartoes:hover{
+.cartao-container-um:hover, .cartao-container-dois:hover, .cartao-container-tres:hover{
     transform: translateY(-1rem);
 }
 
-.container-cartoes:hover a{
+.cartao-container-um:hover a, .cartao-container-dois:hover a, .cartao-container-tres:hover a{
     background-color: #fd735a;
     color: white;
 }
